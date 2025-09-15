@@ -1,0 +1,57 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/                  # Virtual environment directory (as specified in setup.sh)
+*.env                  # Environment variables file
+.pytest_cache/
+.coverage
+*.bak                  # Backup files
+
+# Jupyter Notebook files
+.ipynb_checkpoints/    # Checkpoints created by Jupyter
+*.ipynb-filter
+*.local.ipynb
+
+# Data and Artifacts (typically large or generated files)
+# Uncomment the line below if your dataset files are large and should NOT be version controlled
+# dataset/              # Ignore the entire dataset directory if it contains very large files
+# *.csv                 # Ignore all .csv files (be careful, might ignore source data)
+# *.parquet
+# *.feather
+# *.hdf5
+# *.pkl
+# *.joblib              # For saved machine learning models or preprocessors
+# *.h5                  # HDF5 files, often used for models
+
+# Log files
+*.log
+logs/                  # A directory for log files
+
+# Downloaded Images
+images/                # The folder where downloaded product images are stored
+
+# IDE specific files
+.idea/                 # PyCharm project files
+.vscode/               # VS Code configuration files
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# Compilation artifacts
+*.so
+*.dll
+*.dylib
+
+# Temporary files
+*.tmp
+*~                     # Emacs/Vim temporary files

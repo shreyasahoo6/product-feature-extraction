@@ -1,0 +1,5 @@
+pandas
+Pillow
+pytesseract
+tqdm
+requests 
